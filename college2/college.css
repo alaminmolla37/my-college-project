@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.page{
+    width: 800px;
+    height: auto;
+    border-style: groove;
+}
+.header{
+    width: 800px;
+    height: 200px;
+    background: rgba(12,100,198);
+}
+.header img{
+    width: 800px;
+    height: 220px;
+    background-repeat: no-repeat;
+}
+ .title{
+      margin: 0;
+      padding: 0;
+align-items: center;
+align-content: center;
+text-align: center;
+top: 50%;
+left: 50%;
+color: #ff0051;
+    background: #0000ff;
+    background-attachment: fixed;
+    background-position: initial;
+}
+.title h1{
+    letter-spacing: 1px;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+
+}
+.page{
+    
+    margin: auto;
+}
+.link{
+    width: 800px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    padding-bottom: 10px;
+    background-color:#003cff;
+    border-style: groove;
+    position: relative;
+}
+.link a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+.link a:hover{
+    color:rgb(12,100,198);
+    background-color:rgb(245,246,251);
+    position: relative;
+}
+.link ul{
+    list-style: none;
+    position: relative;
+
+}
+.link ul li{
+    background-color: #0000ff;
+    width: 110px;
+    border: 1px solid white;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    float: left; 
+    position: relative;
+
+}
+.link ul ul{
+    display: none;
+}
+.link ul li:hover > ul{
+    display: block;
+}
+.link ul ul ul{
+    margin-left:100px;
+    top: 0px;
+    position: absolute;
+}
+.bodypart{
+   width: 800px;
+   height: 600px;
+   border-style: groove;
+   margin-top:5px;
+}
+.bodypart .imagepart{
+    width:550px ;
+    height: 300px;
+    border-style: groove;
+    background-image: url(20200601_180732.gif);
+    background-repeat: no-repeat;
+    display: inline-block; 
+}
+.bodypart .newspart{
+    width: 220px;
+    height: 580px;
+    border-style: groove;
+    float: right;
+}
+.bodypart .newspart h2{
+    color: green;
+    margin-left: 10px;
+}
+.bodypart .newspart .news{
+    width: 230px;
+    height: 500px;
+    
+}
+.bodypart .newspart .news h3{
+    color: blue;
+}
+.footerpart{
+    width: 800px;
+    height: 25px;
+    margin-top: 5px;
+  background-color: rgb(12,100,198);
+  border-style: groove;
+}
